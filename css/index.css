@@ -1,0 +1,372 @@
+.small-font {
+  -webkit-transform: scale(0.5); }
+
+.header {
+  background: #c41411;
+  height: 50px;
+  width: 100%;
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 1000; }
+  .header .search {
+    width: auto;
+    height: 30px;
+    margin: 0px 30px;
+    background: #fff; }
+    .header .search .logo {
+      width: 40px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 16px;
+      float: left;
+      color: #c6c6c6; }
+    .header .search input {
+      outline: none;
+      border: none;
+      width: auto;
+      height: 30px; }
+
+.swiper-container {
+  width: auto; }
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-pagination {
+  text-align: right; }
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: white;
+  opacity: 1;
+  border: 1px solid #fff; }
+
+.swiper-pagination-bullet-active {
+  border: 1px solid #009bd7; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative; }
+  .banner .ppt {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    left: 0;
+    top: 0; }
+    .banner .ppt .pic {
+      width: 100%;
+      float: left;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .banner .ppt .pic img {
+        width: 100%;
+        height: auto;
+        float: left; }
+  .banner .circle {
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px; }
+    .banner .circle .c {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #fff;
+      margin: 0 5px;
+      float: left; }
+    .banner .circle .c.h {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: 2px solid #009bd7; }
+
+.nav {
+  width: 100%;
+  height: 100px; }
+  .nav .navDetail {
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    cursor: pointer; }
+    .nav .navDetail .ellipse {
+      height: 38px;
+      width: 38px;
+      border-radius: 40%;
+      color: #fff;
+      font-size: 25px;
+      line-height: 38px;
+      margin: 5px auto;
+      margin-top: 20px;
+      text-align: center; }
+  .nav .navDetail:nth-child(1) .ellipse {
+    background: #54c2f5; }
+  .nav .navDetail:nth-child(2) .ellipse {
+    background: #f56e7d; }
+  .nav .navDetail:nth-child(3) .ellipse {
+    background: #fbd213; }
+  .nav .navDetail:nth-child(4) .ellipse {
+    background: #6ed32a; }
+
+.festival,
+.card,
+.travel,
+.recommend,
+.fit,
+.edu {
+  width: 101%; }
+  .festival .title,
+  .card .title,
+  .travel .title,
+  .recommend .title,
+  .fit .title,
+  .edu .title {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    background: #f1f1f1; }
+  .festival .l,
+  .card .l,
+  .travel .l,
+  .recommend .l,
+  .fit .l,
+  .edu .l {
+    height: 133px;
+    width: 49.5%; }
+    .festival .l img,
+    .card .l img,
+    .travel .l img,
+    .recommend .l img,
+    .fit .l img,
+    .edu .l img {
+      height: 67%;
+      float: right;
+      margin-right: 15px; }
+    .festival .l .subtitle,
+    .card .l .subtitle,
+    .travel .l .subtitle,
+    .recommend .l .subtitle,
+    .fit .l .subtitle,
+    .edu .l .subtitle {
+      margin-left: -15px;
+      font-size: 13px;
+      width: 110px;
+      text-align: center; }
+      .festival .l .subtitle p,
+      .card .l .subtitle p,
+      .travel .l .subtitle p,
+      .recommend .l .subtitle p,
+      .fit .l .subtitle p,
+      .edu .l .subtitle p {
+        margin-bottom: -5px;
+        margin-top: 10px; }
+  .festival .m,
+  .card .m,
+  .travel .m,
+  .recommend .m,
+  .fit .m,
+  .edu .m {
+    height: 97px;
+    width: 24.65%;
+    text-align: center; }
+    .festival .m img,
+    .card .m img,
+    .travel .m img,
+    .recommend .m img,
+    .fit .m img,
+    .edu .m img {
+      margin-top: 10px;
+      height: 50%; }
+    .festival .m .subtitle,
+    .card .m .subtitle,
+    .travel .m .subtitle,
+    .recommend .m .subtitle,
+    .fit .m .subtitle,
+    .edu .m .subtitle {
+      float: left;
+      font-size: 12px;
+      width: 100%;
+      height: 30px; }
+      .festival .m .subtitle p,
+      .card .m .subtitle p,
+      .travel .m .subtitle p,
+      .recommend .m .subtitle p,
+      .fit .m .subtitle p,
+      .edu .m .subtitle p {
+        margin-bottom: -5px;
+        margin-top: 10px; }
+  .festival .s,
+  .card .s,
+  .travel .s,
+  .recommend .s,
+  .fit .s,
+  .edu .s {
+    height: 66px;
+    width: 49.5%; }
+    .festival .s img,
+    .card .s img,
+    .travel .s img,
+    .recommend .s img,
+    .fit .s img,
+    .edu .s img {
+      height: 67%;
+      float: right;
+      margin-right: 20px;
+      margin-top: -25px; }
+    .festival .s .subtitle,
+    .card .s .subtitle,
+    .travel .s .subtitle,
+    .recommend .s .subtitle,
+    .fit .s .subtitle,
+    .edu .s .subtitle {
+      margin-left: -15px;
+      font-size: 12px;
+      width: 100px;
+      text-align: center; }
+      .festival .s .subtitle p,
+      .card .s .subtitle p,
+      .travel .s .subtitle p,
+      .recommend .s .subtitle p,
+      .fit .s .subtitle p,
+      .edu .s .subtitle p {
+        margin-bottom: -5px;
+        margin-top: 10px; }
+
+.festival .title,
+.recommend .title,
+.edu .title,
+.fit .title {
+  color: #f56e7d; }
+.festival .l,
+.recommend .l,
+.edu .l,
+.fit .l {
+  border-bottom: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2; }
+  .festival .l .subtitle,
+  .recommend .l .subtitle,
+  .edu .l .subtitle,
+  .fit .l .subtitle {
+    color: #f56e7d; }
+.festival .s,
+.recommend .s,
+.edu .s,
+.fit .s {
+  border-bottom: 1px solid #b2b2b2; }
+.festival .m:nth-child(5),
+.festival .m:nth-child(6),
+.festival .m:nth-child(7),
+.recommend .m:nth-child(5),
+.recommend .m:nth-child(6),
+.recommend .m:nth-child(7),
+.edu .m:nth-child(5),
+.edu .m:nth-child(6),
+.edu .m:nth-child(7),
+.fit .m:nth-child(5),
+.fit .m:nth-child(6),
+.fit .m:nth-child(7) {
+  border-left: 1px solid #b2b2b2; }
+
+.card .title {
+  color: #f68001; }
+.card .l {
+  border-bottom: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2; }
+  .card .l .subtitle {
+    color: #f68001; }
+.card .s {
+  border-bottom: 1px solid #b2b2b2; }
+.card .s:nth-child(4),
+.card .s:nth-child(6) {
+  border-right: 1px solid #b2b2b2; }
+.card .s:nth-child(6),
+.card .s:nth-child(7) {
+  border-bottom: none; }
+
+.travel .title {
+  color: #8862f7; }
+.travel .l {
+  border-right: 1px solid #b2b2b2; }
+  .travel .l .subtitle {
+    color: #8862f7; }
+  .travel .l img {
+    margin-right: 0px;
+    margin-top: 5px; }
+.travel .s:nth-child(2) {
+  border-bottom: 1px solid #b2b2b2; }
+
+.fit .s:nth-child(4),
+.fit .s:nth-child(5),
+.edu .s:nth-child(4),
+.edu .s:nth-child(5) {
+  border-bottom: none; }
+.fit .s:nth-child(4),
+.edu .s:nth-child(4) {
+  border-right: 1px solid #b2b2b2; }
+
+.fit .title {
+  color: #c99227; }
+.fit .l .subtitle {
+  color: #c99227; }
+
+.edu .title {
+  color: #71c405; }
+.edu .l .subtitle {
+  color: #71c405;
+  margin-top: 0px; }
+.edu .l img {
+  margin-right: 0px;
+  margin-top: 5px; }
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  border-top: 1px solid #b2b2b2; }
+  .footer .f-detail {
+    width: 25%;
+    height: 65px;
+    text-align: center;
+    float: left;
+    color: #838383;
+    background: #fff;
+    cursor: pointer;
+    color: #838383; }
+    .footer .f-detail p {
+      font-size: 23px;
+      margin-top: 10px; }
+  .footer .f-detail.h {
+    color: #c41411; }
+
+.bg {
+  margin-top: 80px; }
+
+.main {
+  margin-bottom: 65px; }
+
+/*# sourceMappingURL=index.css.map */
